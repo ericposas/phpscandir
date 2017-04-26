@@ -1,5 +1,6 @@
 <?php
 
+# need to write a token-swap function in here or in a new file.. 
 # write code that scans a directory, returns an array, re-formats that array for use in BannerKit 
 
 # all other globally-accessible variables set within the functions 
