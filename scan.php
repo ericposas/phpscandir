@@ -52,7 +52,7 @@ function processElems(){
 
 function arrangeFormattedArray(){
   global $formattedarr, $filenames;
-  $formattedarr = "var e = [" . implode(", ", $filenames) . "]";
+  $formattedarr = "var e = [" . implode(", ", $filenames) . "];";
   #echo $formattedarr."\n";
 }
 
