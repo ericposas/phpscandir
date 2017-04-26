@@ -41,6 +41,7 @@ function processElems(){
   global $imgarr,$exts,$filenames,$formattedarr;
   $exts=[];
   $filenames=[];
+  $matches=[];
   $rgx = '/(.+)(\.\w{3})/';
   foreach($imgarr as $key=>$val){
     if(preg_match($rgx, $val, $matches)){
